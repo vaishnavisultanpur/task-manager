@@ -11,47 +11,6 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-# Create main project folder
-mkdir task-manager
-cd task-manager
-
-# Create backend folder
-mkdir backend
-cd backend
-
-# Initialize backend
-npm init -y
-npm install express cors
-
-# Go back to root
-cd ..
-
-# Create frontend with Vite
-npm create vite@latest frontend -- --template react
-cd frontend
-npm install
-
-2. Backend Setup
-bashcd backend
-
-# Create server.js file
-touch server.js
-
-3. Frontend Setup (Vite-specific)
-bashcd frontend
-
-# Start frontend dev server
-npm run dev
-
-4. Start Both Servers
-Terminal 1 - Backend:
-bashcd backend
-node server.js
-
-Terminal 2 - Frontend:
-bashcd frontend
-npm run dev
-```
 
 ### Screenshots 
 
