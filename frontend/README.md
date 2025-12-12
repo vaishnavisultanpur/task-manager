@@ -12,9 +12,3 @@ Currently, two official plugins are available:
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
 
-### Screenshots 
-
-![frontend](/screenshots/frontend.png?raw=true "frontend")
-![addTask](/screenshots/addTask.png?raw=true "addTask")
-![backend](/screenshots/backend.png?raw=true "backend")
-![deleteTask](/screenshots/deleteTask.png?raw=true "deleteTask")
